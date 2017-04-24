@@ -232,6 +232,8 @@ var arreglo = [
 ];
 arreglo.forEach(function(element){
  
-  document.write("<div>" + element.name + "<br>" + "</div>");
   
+  document.write("<div>" + "Name: " + element.name + "<br>" + "</div>");
+  document.write("<div>" + "Address: " + element.address.street + ", " + element.address.city + "<br>" + "</div>");
+  document.write("<div>" + "<br>" + "</div>");
   });
